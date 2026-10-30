@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Namaz &amp; Zikir — Gizlilik Politikası</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; background: #faf9f6; color: #202834; font: 1rem/1.7 system-ui, sans-serif; }
+    main { max-width: 46rem; margin: auto; padding: 2rem 1.25rem 3rem; overflow-wrap: anywhere; }
+    h1, h2 { line-height: 1.3; }
+    h1 { font-size: 1.8rem; margin-bottom: .5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    li { margin: .5rem 0; }
+    a { color: #285a85; text-underline-offset: .2em; }
+    .tarih { color: #525c66; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101923; color: #edf0f3; }
+      a { color: #b9d8f3; }
+      .tarih { color: #b4bdc5; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Namaz &amp; Zikir<br>Gizlilik Politikası</h1>
+  <p class="tarih">Son güncelleme: <time datetime="2026-10-30">30 Ekim 2026</time></p>
+  <p>Namaz &amp; Zikir, Android için namaz vakti, ezan, zikir ve Kur’an okuma uygulamasıdır. Hesap açmanız gerekmez. Uygulamada reklam, analitik veya geliştiriciye otomatik hata raporu gönderen bir sistem bulunmaz. Geliştiricinin profil verilerinizi topladığı bir sunucu yoktur.</p>
+
+  <h2>1. Cihazınızda saklanan bilgiler</h2>
+  <p>Seçtiğiniz şehir ve koordinatlar, ev konumu, hesaplama ve bildirim tercihleri cihazınızda saklanır. Namaz vakitleri cihazınızda hesaplanır; kayıtlı konumla vakitler ve ezan internet olmadan çalışır.</p>
+  <p>Telefon yeniden başladıktan sonra ilk kilit açılmadan da ezan kurulabilmesi için yalnız alarm zamanları, bildirim içeriği ve ezan tercihleri Android’in cihaz korumalı deposunda ayrıca saklanır. Profil, koordinatlar, okuma ve zikir kayıtları bu kopyaya alınmaz. Ezan servisi başlatılamazsa son hatanın zamanı, teknik hata türü ve bildirim kanalının durumu yalnız cihazda tutulur; geliştiriciye gönderilmez.</p>
+  <p>İsteğe bağlı profilinizde ad veya takma ad, niyet metni, seçtiğiniz ayet ve esmâ bulunabilir. Kur’an ve hadis okuma sayaçları, son okuma yeri, zikirler ve zikir geçmişi de yereldir. Profil ve ibadet bilgileri dinî inancınız hakkında bilgi verebilir. Bunları geliştiriciye veya Nominatim’e göndermeyiz.</p>
+
+  <h2>2. Konum ve şehir arama</h2>
+  <p>Konum izni vermeden uygulamaya gömülü GeoNames şehir listesinden il, ilçe veya şehir seçebilirsiniz. Yazarken yapılan yerel arama cihazınızda kalır. Çevrim içi aramayı başlattığınızda, internet varsa arama metniniz ek sonuçlar için OpenStreetMap Nominatim hizmetine gönderilir. Arama alanına kişisel veya hassas bilgi yazmayın.</p>
+  <p>“Konumumu bul” seçeneğinde Android’den yalnız yaklaşık konum izni istenir. Şehir adını bulmak için koordinatlar iki ondalık basamağa, yaklaşık 1 km ölçeğine yuvarlanarak Nominatim’e gönderilir. Cihazda alınan koordinatlar vakit hesabında yerel olarak kullanılır; yuvarlanmamış koordinatlar bu hizmete gönderilmez. İnternet yoksa yerel listeden en yakın şehir adı kullanılır.</p>
+  <p>İsteğe bağlı “Yolculukta konumu denetle” ayarı başlangıçta kapalıdır. Açarsanız ve konum izni varsa uygulama açıldığında veya öne geldiğinde şehir değişimini denetler; gerektiğinde şehir adı için aynı yuvarlatılmış koordinatları Nominatim’e gönderir. Arka planda konum takibi yapılmaz.</p>
+  <p>Nominatim istekleri HTTPS ile iletilir. Hizmet; arama metnini veya yaklaşık koordinatı, bağlantının IP adresini, istek zamanını ve uygulamayı tanıtan HTTP üst bilgilerini görebilir. Bu bilgiler şehir arama ve şehir adı bulma işlevleri için OpenStreetMap Foundation ile paylaşılır. Hizmetin kendi günlük ve saklama uygulamaları için <a href="https://osmfoundation.org/wiki/Privacy_Policy" rel="noreferrer">OpenStreetMap Foundation gizlilik politikasını</a> inceleyebilirsiniz. Üçüncü tarafın saklama süresini geliştirici belirlemez.</p>
+
+  <h2>3. Profil kartı, karekod ve paylaşım</h2>
+  <p>Paylaşımı siz başlatırsınız. Profil kartı bir resim ve biyografi satırı olarak Android paylaşım menüsünde seçtiğiniz uygulamaya aktarılır. Kartta ibadet istatistikleri başlangıçta gizlidir; siz açarsanız resimde görünür.</p>
+  <p>Profil karekodu başlangıçta açıktır ve kart ayarından kapatılabilir. Karekod; ad veya takma adınızı, niyetinizi, seçilen ayetin referansını ve esmâ seçiminizi doğrudan içerir. İbadet istatistikleri karekoda eklenmez. Karekod şifreli değildir; resmi alan veya kodu okuyan kişi bu bilgileri okuyabilir ve kopyalayabilir. Karekod kimlik doğrulaması sağlamaz.</p>
+  <p>Galeriden seçtiğiniz kart resmi Android fotoğraf seçicisiyle alınır ve karekod cihazda çözülür; geliştiriciye yüklenmez. Kamera veya tüm fotoğraf arşivine erişim izni istenmez. Metin kopyalama seçenekleri yalnız siz dokunduğunuzda seçili metni sistem panosuna yazar. Paylaşım yaptığınız uygulama veya alıcının sonraki işlemleri kendi gizlilik koşullarına tabidir.</p>
+
+  <h2>4. Android izinleri</h2>
+  <ul>
+    <li><strong>İnternet:</strong> çevrim içi şehir arama ve koordinattan şehir adı bulma.</li>
+    <li><strong>Yaklaşık konum:</strong> isteğe bağlı konum bulma ve uygulama açıkken yolculuk denetimi. Kesin konum veya arka plan konum izni yoktur.</li>
+    <li><strong>Bildirimler ve tam zamanlı alarmlar:</strong> seçtiğiniz vakitlerde bildirim, ezan ve hatırlatma.</li>
+    <li><strong>Ön plan medya servisi ve uyanık tutma:</strong> ezan sesinin çalması sırasında çalışmanın sürmesi ve denetim bildiriminin gösterilmesi.</li>
+    <li><strong>Google Play faturalandırma:</strong> isteğe bağlı destek ödemesinin Google Play ile yapılması.</li>
+    <li><strong>Yeniden başlatmayı algılama:</strong> kayıtlı alarmların telefon yeniden açıldığında kurulması.</li>
+  </ul>
+  <p>Reklam kimliği, kişiler, mikrofon, kamera veya pil optimizasyonundan muafiyet isteme izni bulunmaz. Pil ayarı düğmesi Android’in sistem ayarlarını açar; tercihi siz yaparsınız.</p>
+
+  <h2>5. Saklama, silme ve tercihleriniz</h2>
+  <p>Yerel kayıtlar siz değiştirene veya Android’in uygulama bilgileri ekranından depolama verilerini temizleyene kadar cihazınızda kalır. Verileri temizlemek tüm yerel ayarları, profilinizi, okuma ve zikir geçmişinizi sıfırlar; ezan için konum ve tercihlerinizi yeniden ayarlamanız gerekir. Uygulamayı kaldırmak da uygulamanın yerel kayıtlarını kaldırır. Konum ve bildirim izinlerini Android ayarlarından geri alabilirsiniz; bildirim veya alarm erişimini kapatmak uyarıları etkileyebilir.</p>
+  <p>Android yedeklemesi uygulamada kapalıdır (<code>android:allowBackup=false</code>). Paylaştığınız kartların alıcılardaki kopyaları veya paylaşım uygulamalarındaki kayıtlar bu işlemle silinmez. Nominatim tarafındaki kayıtlar için ilgili hizmetin gizlilik ve başvuru yolları geçerlidir.</p>
+
+  <h2>6. İsteğe bağlı destek ödemesi</h2>
+  <p>Ayarlar → Destek ol ekranından geliştirmeye isteğe bağlı destek verebilirsiniz. Destek hiçbir özelliği açmaz. Ödeme tamamen Google Play Faturalandırma üzerinden yapılır; kart ve ödeme bilgileriniz geliştiriciye ulaşmaz. Google Play, satın alma işlemini kendi <a href="https://policies.google.com/privacy" rel="noreferrer">gizlilik politikasına</a> göre işler; geliştirici Play Console’da satın alma kaydını (sipariş numarası, ürün, tutar, ülke) görebilir.</p>
+  <p>Uygulama satın alma bilgisini bir sunucuya göndermez; başarılı destekten sonra yalnız teşekkür yazısını göstermek için cihazda “destek verildi” bilgisi saklanır. Bu bilgi uygulama verileri temizlenince silinir. Bu işlev için Android’e Google Play faturalandırma izni eklenmiştir; kullanıcıdan ayrıca izin istenmez.</p>
+
+  <h2>7. Bu sayfa ve iletişim</h2>
+  <p>Ayarlar → Geri bildirim ekranında yazdığınız mesaj, seçtiğiniz konu ve uygulama sürümü isteğinizle e-posta uygulamanıza aktarılır. Gönderimi e-posta uygulamasında siz tamamlarsınız; bu durumda mesajınız ve e-posta adresiniz destek adresimize ulaşır ve geri bildiriminizi değerlendirmek veya yanıtlamak için kullanılır. Konum, profil, okuma ve zikir geçmişiniz otomatik eklenmez. E-posta hizmetinizin gizlilik koşulları geçerlidir. Mesajı veya destek adresini kopyalama seçeneği yalnız dokunduğunuzda sistem panosuna yazar.</p>
+  <p>Bu belge harici yazı tipi, betik, resim, çerez, analitik veya izleme bileşeni yüklemez. Sayfayı sunan barındırma hizmeti bağlantıya ilişkin teknik kayıtlar tutabilir. Yukarıdaki dış bağlantı yalnız üzerine dokunduğunuzda açılır.</p>
+  <p>Gizlilik sorularınız ve başvurularınız için iletişim adresi: <strong>pd.ozkanfurkan@gmail.com</strong>.</p>
+  <p>Veri işleme uygulamalarında değişiklik olursa bu politika ve yukarıdaki güncelleme tarihi yenilenir.</p>
+</main>
+</body>
+</html>
