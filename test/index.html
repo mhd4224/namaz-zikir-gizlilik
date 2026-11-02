@@ -24,8 +24,9 @@
     a.dugme { display: block; text-align: center; background: #1f6f5c; color: #fff; text-decoration: none; font-weight: 600; padding: .9rem 1rem; border-radius: 14px; margin-top: .75rem; min-height: 48px; box-sizing: border-box; }
     a { color: #285a85; text-underline-offset: .2em; }
     .not { background: #fff6e0; border-radius: 14px; padding: .8rem 1rem; }
-    .ekranlar { display: flex; gap: .75rem; justify-content: center; margin: 1.25rem 0; }
-    .ekranlar img { width: 48%; max-width: 180px; height: auto; border-radius: 14px; border: 1px solid #dde2e7; }
+    img.ana { display: block; width: 75%; max-width: 300px; height: auto; margin: 1.25rem auto; border-radius: 18px; border: 1px solid #dde2e7; }
+    .ekranlar { display: flex; gap: .75rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; margin: .5rem 0 1.25rem; }
+    .ekranlar img { flex: 0 0 auto; width: 45%; max-width: 200px; height: auto; border-radius: 14px; border: 1px solid #dde2e7; scroll-snap-align: start; }
     li { margin: .4rem 0; }
     footer { color: #525c66; font-size: .9rem; margin-top: 2.5rem; }
     @media (prefers-color-scheme: dark) {
@@ -35,7 +36,7 @@
       a { color: #b9d8f3; }
       a.dugme { background: #2c8a73; color: #fff; }
       .not { background: #3a3120; }
-      .ekranlar img { border-color: #2b3846; }
+      .ekranlar img, img.ana { border-color: #2b3846; }
     }
   </style>
 </head>
@@ -51,9 +52,16 @@
 
   <p>Uygulama Google Play’e çıkmadan önce Google, gerçek telefonlarda <strong>en az 12 kişinin 14 gün</strong> boyunca test etmesini istiyor. Siz de test kullanıcısı olursanız uygulama herkese daha erken ulaşır; bulduğunuz hatalar yayından önce düzeltilir.</p>
 
+  <img class="ana" src="ekran-1.jpg" alt="Ana sayfa: vakitler ve sonraki vakte geri sayım" width="360" height="640">
+
+  <h2>Uygulamada neler var?</h2>
+  <p class="alt">Yana kaydırın →</p>
   <div class="ekranlar">
-    <img src="ekran-1.jpg" alt="Uygulamanın vakitler ekranı" width="360" height="640">
-    <img src="ekran-2.jpg" alt="Ezan ve bildirim ayarları ekranı" width="360" height="640">
+    <img src="ekran-2.jpg" alt="Ezan ve bildirim ayarları" width="360" height="640" loading="lazy">
+    <img src="ekran-3.jpg" alt="Zikirmatik" width="360" height="640" loading="lazy">
+    <img src="ekran-4.jpg" alt="Kıble pusulası" width="360" height="640" loading="lazy">
+    <img src="ekran-5.jpg" alt="İmsakiye" width="360" height="640" loading="lazy">
+    <img src="ekran-6.jpg" alt="Kur’an ve kelime açıklaması" width="360" height="640" loading="lazy">
   </div>
 
   <h2>3 adımda katılın</h2>
